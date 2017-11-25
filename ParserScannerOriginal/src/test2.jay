@@ -1,0 +1,13 @@
+// For testing the syntax parser
+void main() {
+	boolean i;
+	int j;
+	i = a;
+	j = 5;
+	while (i == false) {
+		j = j - 1;
+		if (j == 0) {
+			i = true;
+		}
+	}
+}
